@@ -85,7 +85,7 @@ p{
     padding-bottom: 80px;
 }
 
-/*before the last tow */
+/*project box section complete */
 
 .exception-section{
     background-color: rgb(245, 245, 245);
@@ -97,8 +97,8 @@ p{
     padding-bottom: 4%;
 }
 .three-in-one{
-    height: 60%;
-    width: 28%;
+    height: 55%;
+    width: 25%;
     margin-left: 2%;
     padding: 1%;
     float: left;
@@ -110,6 +110,27 @@ p{
     width: 100%;
 }
 .tables{
-    margin-left: 5%;
+    margin-left: 9%;
 }
 
+/* working inquery section*/
+.chat-test{
+    height: 500px;
+    background-image: url("images/bi.png");
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: 50% 50%;
+}
+/*fixing word positon */
+.fixing-positon{
+    position: relative;
+    top: 47%;
+    left: 27%; 
+}
+.fixing-positon2{
+    position: relative;
+    top: 32%;
+    left: 63%; 
+}.chat-test h1{
+    color: white;
+}
