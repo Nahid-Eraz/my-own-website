@@ -7,18 +7,20 @@ body{
 
 .first-4{
     margin-top: 25px;
-    margin-right: 2%;
+    margin-right: 6%;
     padding-right: 1%;
     text-align: right;
+    margin-bottom: 50px;
 }
 /*gapping between each button */
 .gapping{
     margin-left: 1%;
     padding-left: 1%;
     text-decoration: none;
+    color: black;
 }
 a{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 700;
 }
 /* first section complete */
@@ -29,11 +31,28 @@ a{
 h1{
     font-family: 'Anton', sans-serif;
     color: #1f1562;
-    font-size: 50px;
-    font-weight: 300;
+    font-size: 60px;
+    font-weight: 200;
+    line-height: 30px;
 }
+h2{
+    font-family: 'Anton', sans-serif;
+    color: #1f1562;
+    font-size: 50px;
+    font-weight: normal;
+}
+h3{
+    color: #1f1562;
+    font-size: 24px;
+}
+
 span{
     color: #e6724c;
+}
+p{
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.6;
 }
 /* button work */
 .button-theme{
@@ -42,9 +61,55 @@ span{
     background-color:  #e6724c;
     font-size: 17px;
     border-radius: 4px;
-    padding: 10px 20px;
+    padding: 15px 40px;
 }
-/*distance between paragraph and button */
+/*distance between paragraph and button + balancing */
 .distance{
-    margin-bottom: 35px;
+    margin-bottom: 25px;
+    padding-top: 50px;
+    
 }
+/* half test and half image placement */
+.half-box{
+    float: left;
+    width: 39%;
+    margin-left: 8%;
+    padding-left: 2%;
+}
+/*image size masurement */
+.half-box img{
+    width: 82%;
+}
+.one-forth{
+    height: 500px;
+    padding-bottom: 80px;
+}
+
+/*before the last tow */
+
+.exception-section{
+    background-color: rgb(245, 245, 245);
+    height: 1000px;
+}
+#middle-line{
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 4%;
+}
+.three-in-one{
+    height: 60%;
+    width: 28%;
+    margin-left: 2%;
+    padding: 1%;
+    float: left;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 3px 4px 30px lightgray;
+}
+.three-in-one img{
+    width: 100%;
+}
+.tables{
+    margin-left: 5%;
+}
+
